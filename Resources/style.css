@@ -50,6 +50,7 @@
   background-color: lightgrey;
 }
 
+
 .table img {
   width: 60%;
   margin: 32px 24px;
@@ -58,7 +59,7 @@
 
 .info {
   margin-left: 24px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -70,12 +71,47 @@
 .white-box {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+
 }
 
 .reading img {
   width: 60%;
   margin: 32px 24px;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.reading h1, h4 {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 24px;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+
+
+}
+
+.link {
+  display: inline-flex;
+
+
+
+
+}
+.link img {
+  width: 35%;
+  height: 25%;
+
+}
+
+.link-info {
+  width: 65%;
+  height: 25%;
 }
