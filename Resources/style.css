@@ -64,7 +64,18 @@
   align-content: center;
   flex-direction: column;
   width: auto;
-
-
   align-content: space-around;
+}
+
+.white-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.reading img {
+  width: 60%;
+  margin: 32px 24px;
+  display: flex;
 }
