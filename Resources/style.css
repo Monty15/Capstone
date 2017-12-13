@@ -90,6 +90,8 @@
 .table img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
+  border: solid darkgrey 2px;
 
 }
 
@@ -130,6 +132,7 @@
   text-align: center;
   width: 70%;
   margin: 30px 30px;
+  border-radius: 10px;
 
 
 }
@@ -159,6 +162,8 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 20px;
+  border: solid lightgrey 1px;
 
 }
 
@@ -186,10 +191,12 @@
   border: lightgrey solid 2px;
   margin-bottom: 5px;
   align-items: flex-start;
+  border-radius: 20px;
 }
 .link img {
   width: 35%;
   height: 25%;
+  border-radius: 20px;
 
 }
 
@@ -270,6 +277,8 @@
   justify-content: center;
   margin-right: 32px;
   margin-bottom: 32px;
+  border-radius: 20px;
+  border: solid darkgrey 1px;
 
 
 
@@ -277,6 +286,7 @@
 .sub-link img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 }
@@ -374,8 +384,13 @@ padding-bottom: 24px;
   justify-content: center;
   text-align: center;
 
+
 }
 
+video {
+  border-radius: 20px;
+  border: solid lightgrey 1px;
+}
 
 
 .info-left {
@@ -410,6 +425,7 @@ padding-bottom: 24px;
   padding: 5px;
   border: lightgrey solid 2px;
   margin-bottom: 5px;
+  border-radius: 20px;
 
 }
 
@@ -418,6 +434,7 @@ padding-bottom: 24px;
   height: auto;
   justify-content: flex-start;
   align-items: flex-start;
+  border-radius: 20px;
 }
 
 
