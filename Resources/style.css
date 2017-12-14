@@ -46,6 +46,42 @@
   font-size: 30px;
 }
 
+.mobile-header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+
+}
+
+.mobile-header .logos {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.mobile-header .logos span img{
+  align-content: center;
+  justify-content: space-between;
+  display: inline-flex;
+}
+
+@media only screen and (min-width: 771px) {
+  .mobile-header {display: none;}
+}
+
+@media only screen and (max-width: 770px) {
+  .menu {display: none;}
+  .header .logo {display: none;}
+  .header .menu {display: none;}
+  .grey-box {flex-direction: column;}
+  .grey-box .table {margin: 0px;}
+  .table img {border-radius: 0px;}
+  .gre-box .Info {margin-right: 0px;}
+  .grey-box .Info h1{margin: 32px 16px;}
+  .grey-box .Info h3{margin: 0px 16px;}
+  .grey-box .Info .button {margin: 24px 16px 32px 16px;}
+}
 .menu {
   align-items: center;
   align-content: flex-end;
@@ -63,7 +99,7 @@
   align-items: center;
   align-content: flex-end;
   justify-content:flex-end;
-  font-size: 1.2rem;
+  font-size: 1rem;
 
 }
 
@@ -74,7 +110,7 @@
   justify-content: center;
   align-items: center;
   background-color: lightgrey;
-  background-size: cover;
+
 }
 
 
@@ -167,9 +203,17 @@
 
 }
 
-.reading h1, h4 {
+.reading h1, p {
   text-align: center;
+}
 
+#reference {
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: times;
+  margin-left: 20px;
+  margin-top: 32px;
+  font-weight: 550;
 }
 
 .menu-links {
@@ -310,7 +354,7 @@ text-align: center;
 padding-left: 16px;
 padding-right: 16px;
 padding-top: 8px;
-padding-bottom: 24px;
+padding-bottom: 12px;
 }
 
  .subject-info h3 {
@@ -397,6 +441,9 @@ video {
   width: 60%;
   justify-content: center;
 }
+.info-left p {
+  margin-top: 8px;
+}
 .exhibit-right {
   display: flex;
   flex-direction: column;
@@ -414,6 +461,7 @@ video {
 
 
 }
+
 .thesis-link {
   display: inline-flex;
   flex-direction: row;
@@ -440,7 +488,7 @@ video {
 
 
 .thesis-info {
-  justify-content: center;
+  justify-content: left;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -470,5 +518,37 @@ flex-wrap: wrap;
   text-align: left;
   flex-wrap: wrap;
   padding-left: 16px;
+
+}
+
+footer {
+  margin: 16px 24px;
+  display: inline-flex;
+  border-top: darkgrey 2px solid;
+  padding: 16px;
+  justify-content: space-between;
+  width: 100%;
+  color: darkgrey;
+}
+
+footer nav span {
+  margin-left: 20px;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
+  margin-right: 60px;
+}
+
+.icons {
+  margin-right: 72px;
+}
+.icons i {
+  color: black;
+  margin-left: 20px;
 
 }
