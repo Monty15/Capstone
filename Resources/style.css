@@ -47,16 +47,22 @@
   font-size: 30px;
 }
 
-.mobile-header  .logos{
+.mobile-header {
+  width: 100%;
+}
+.mobile-header .logos {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
 }
 
 .mobile-header span {
   display: flex;
   justify-content: space-around;
+  margin-right: auto;
 }
+
 
 
 
